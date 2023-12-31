@@ -16,3 +16,12 @@ function updateCarousel() {
     carousel.style.transform = `translateX(${offset}px)`;
 }
 
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.querySelector('.nav__toggle');
+    const navItems = document.querySelector('.nav__items');
+
+    toggleButton.addEventListener('click', function () {
+        navItems.classList.toggle('show');
+        toggleButton.classList.toggle('open');
+    });
+});

@@ -1,6 +1,7 @@
 .service-section {
     position: relative;
     width: 100%;
+    overflow: hidden!important;
     margin: 25px 0;
 }
 

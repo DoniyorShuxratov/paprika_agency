@@ -4,7 +4,7 @@
 
 .contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -31,4 +31,8 @@
 
 .contact__left--socm svg:hover {
     fill: var(--primary);
+}
+
+.contact__right--map > iframe{
+    width: 500px;
 }
