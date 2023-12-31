@@ -1,0 +1,72 @@
+@media (width < 750px) {
+
+    h1 {
+        font-size: 52px!important;
+    }
+
+    h2 {
+        font-size: 34px!important;
+    }
+
+    .container{
+        width: 350px!important;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 70px;
+    }
+
+    .cases {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crl-1 {
+        width: 10rem;
+        height: 10rem;
+    }
+
+
+    .hero__left {
+        width: 100%;
+    }
+
+    .statistic__top {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .statistic__bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about > *{
+        width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
