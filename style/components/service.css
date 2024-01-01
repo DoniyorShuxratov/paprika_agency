@@ -64,6 +64,10 @@
     color: var(--bg-shade);
 }
 
+.service__name {
+    text-align: start;
+}
+
 .service__name h3 {
     color: var(--bg-shade);
 }

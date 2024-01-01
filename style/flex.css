@@ -112,6 +112,12 @@
     .hero__left--text h2 {
         font-size: 16px!important;
     }
+
+    .hero__left--btn {
+        display: flex;
+        flex-direction: column;
+    }
+
     .statistic__top {
         display: flex;
         flex-direction: column;
@@ -151,4 +157,16 @@
     .contact__right--map > iframe {
         width: 350px;
     }
+
+    .newsgreed {
+        grid-template-columns: 1fr;
+    }
+    .newsgreed__card {
+        width: 100%;
+    }
+    .newsgreed__card > img {
+        width: 100%;
+        height: 100%;
+    }
 }
+
