@@ -50,6 +50,10 @@
     background: var(--primary);
 }
 
+.service:hover {
+    color: var(--white);
+}
+
 .service h2 {
     color: var(--bg-shade);
 }

@@ -118,6 +118,12 @@
         flex-direction: column;
     }
 
+    .hero-from {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+
     .statistic__top {
         display: flex;
         flex-direction: column;

@@ -25,7 +25,12 @@
     gap: 12px;
 }
 
-.hero__left--btn > input {
+.hero-from {
+    display: flex;
+    gap: 12px;
+}
+
+.hero__left--btn input {
     background: none;
     border: 1px solid var(--white);
     border-radius: 50px;

@@ -17,6 +17,7 @@
     object-fit: cover;
     border-radius: 30.333px;
     border: none;
+    object-position: center;
 }
 
 .cases {
@@ -27,6 +28,11 @@
 
 .case {
     width: 100%;
+}
+
+.case > button {
+    width: 100%;
+    cursor: pointer;
 }
 
 .case__subtitle {
