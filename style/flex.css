@@ -109,7 +109,9 @@
     .hero__left {
         width: 100%;
     }
-
+    .hero__left--text h2 {
+        font-size: 16px!important;
+    }
     .statistic__top {
         display: flex;
         flex-direction: column;
@@ -144,5 +146,9 @@
     .footer {
         display: flex;
         flex-direction: column;
+    }
+    
+    .contact__right--map > iframe {
+        width: 350px;
     }
 }
